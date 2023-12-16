@@ -5,6 +5,12 @@ export default{
     title:"Team",
     fields:[
         {
+            name: "id",
+            type: "number",
+            title:"ID member",
+            validation: Rule => Rule.required().integer()
+        },
+        {
             name: "name",
             type: "string",
             title: "Member name"
