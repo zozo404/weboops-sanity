@@ -34,9 +34,9 @@ export default{
             initialValue: 'baby',
             options:{
                 list:[
-                    {title: 'CEO', value: 'ceo'},
-                    {title: 'Member', value: 'member'},
-                    {title: 'Developer', value: 'developer'},
+                    {title: 'CEO', value: 'CEO'},
+                    {title: 'Member', value: 'Member'},
+                    {title: 'Developer', value: 'Developer'},
                 ]
             }
         }
