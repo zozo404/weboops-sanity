@@ -5,6 +5,12 @@ export default{
     title:"Product",
     fields:[
         {
+            name: "id",
+            type: "number",
+            title:"ID member",
+            validation: Rule => Rule.required().integer()
+        },
+        {
             name: "title",
             type: "string",
             title: "Title of product"
@@ -12,8 +18,7 @@ export default{
         {
             name: "description",
             type: "string",
-            title: "Description of product",
-            validation: Rule => Rule.required().min(1).max(200)
+            title: "Description of product"
         },
         {
             name: "image",
